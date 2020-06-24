@@ -1,0 +1,430 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <!-- Modal -->
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-opacity w3-bottom" width="100%" height="20%">
+
+            <div class="w3-padding w3-center">
+                <p>Email <b>danielbatchford@gmail.com</b> copied to clipboard</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!--About Me-->
+    <div class="w3-white w3-row">
+        <header class="w3-container w3-center">
+            <br>
+            <h2>About Me</h2>
+        </header>
+        <div class="w3-quarter w3-center">
+            <img src="static/avatar.png" class=" w3-circle w3-hide-medium w3-margin-right" style="max-height:200px">
+        </div>
+        <div class="w3-rest w3-container">
+            <p>I'm currently a second year Bsc Computer Science student at the University of Birmingham. I have a strong
+                passion for solving technical and algorithmic problems, as well as a strong interest in GUI development
+                in
+                mobile and desktop applications.</p>
+            <p>I am currently working on GUI visualisations and controls for common computer science concepts, including
+                pathfinding and sorting algorithms, with the aim of making these concepts easy to visualise, understand
+                and
+                learn. I am ambitious
+                to help bring these ideas and fundamental concepts to a wider audience outside the scope of Computer
+                Science,
+                enabling more students to get involved in a future career in the field.</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <!--Skills-->
+
+    <header class="w3-container w3-center">
+        <h2>Skills</h2>
+    </header>
+    <div class="w3-white w3-display-container w3-row-padding">
+        <div class="w3-third">
+            <div class="w3-card w3-center w3-hover-shadow">
+                <img src="static/python.png" alt="python" height="110px" style="vertical-align:middle;margin:20px 0px">
+                <div class="w3-container w3-responsive">
+                    <h5 class="w3-opacity w3"><b>Python</b></h5>
+                    <h6 class="w3-text-black">2 Years</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+            <div class="w3-card w3-center w3-hover-shadow">
+                <img src="static/java.png" alt="java" height="110px" style="vertical-align:middle;margin:20px 0px">
+                <div class="w3-container w3-responsive">
+                    <h5 class="w3-opacity"><b>Java</b></h5>
+                    <h6 class="w3-text-black">1 Year</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+            <div class="w3-card w3-center w3-hover-shadow">
+                <img src="static/c++.png" alt="c++" height="110px" style="vertical-align:middle;margin:20px 0px">
+                <div class="w3-container w3-responsive">
+                    <h5 class="w3-opacity"><b>C++</b></h5>
+                    <h6 class="w3-text-black">1 Month</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    <!-- Recent Projects Header -->
+    <div class="w3-container w3-center">
+        <hr>
+        <h2>Recent Projects</h2>
+    </div>
+
+    <!-- Card Recent Projects -->
+    <div class="w3-row-padding w3-center">
+        <div class="w3-third">
+            <a href="https://github.com/danielbatchford/SnakeAI" target="_blank">
+                <div class="w3-card w3-hover-shadow w3-center">
+                    <img src="static/snake.png" width=100%>
+                    <div class="w3-container w3-responsive w3-center" style="height: 100px">
+                        <p>Java snake game AI using A* pathfinding and Processing GUI library</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="w3-third">
+            <a href="https://danielbatchford.github.io/SortingTester/" target="_blank">
+                <div class="w3-card w3-hover-shadow w3-center">
+                    <img src="static/sorting.png" width=100%>
+                    <div class="w3-container w3-responsive w3-center" style="height: 100px">
+                        <p>Static website for timing and displaying various sorting algorithm's computing time</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="w3-third">
+            <a href="https://github.com/danielbatchford/VirusSimulation" target="_blank">
+                <div class="w3-card w3-hover-shadow w3-center">
+                    <img src="static/virus.png" width=100%>
+                    <div class="w3-container w3-responsive w3-center" style="height: 100px">
+                        <p>Virus simulation comparison to the SIR differential model of virus spread</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+    <br>
+
+    <!-- Second Row-->
+    <div class="w3-row-padding w3-center">
+
+        <div class="w3-third">
+            <a href="https://github.com/danielbatchford/PathFindingVisualiser" target="_blank">
+                <div class="w3-card w3-hover-shadow w3-center">
+                    <img src="static/pathfindingvisualiser.png" width=100%>
+                    <div class="w3-container w3-responsive w3-center" style="height: 100px">
+                        <p>An interactive, path-finding visualiser showing searching algorithms on a 2 dimensional
+                            grid</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="w3-third">
+            <a href="https://github.com/danielbatchford/MultivariateLinearRegression" target="_blank">
+                <div class="w3-card w3-hover-shadow w3-center">
+                    <img src="static/regression.png" width=100%>
+                    <div class="w3-container w3-responsive w3-center" style="height: 100px">
+                        <p>Simple multivariate linear regression library in Java to perform binary classification on
+                            n-variable
+                            datasets</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="w3-third">
+            <a href="https://github.com/danielbatchford/pathfinding" target="_blank">
+                <div class="w3-card w3-hover-shadow w3-center">
+                    <img src="static/pathfinding.png" width=100%>
+                    <div class="w3-container w3-responsive w3-center" style="height: 100px">
+                        <p>Lightweight Java pathfinding library implementing common path-finding algorithms on a 2d
+                            grid</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Experience / Education -->
+    <div class="w3-container w3-center">
+        <hr>
+        <h2>Work Experience</h2>
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom w3-hover-shadow">
+            <div class="w3-container ">
+                <h5 class="w3-opacity"><b>Sainsburys IT Department</b></h5>
+                <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2018 (1 week)</h6>
+                <div style="text-align:left">
+                    <p>In this role I managed and upgraded Excel sheets, implementing conditional lookup functions,
+                        as well as filtering and formatting CSV data in Python,
+                        aiding the retail team by producing easier to use Excel structures.
+                        I also collected and compared pricing data across competing supermarket retailers,
+                        presenting the data in a suitable format.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Projects -->
+    <div class="w3-container w3-center">
+        <hr>
+        <h2>Projects</h2>
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom w3-hover-shadow">
+            <div class="w3-container ">
+                <h5 class="w3-opacity"><b>King's Certificate</b></h5>
+                <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2017 - Jun 2018</h6>
+                <div style="text-align:left">
+                    <p>Industry collaboration project with Arbor, a statistical company aimed at providing
+                        insights into educational data. In this project, I worked in a team of 4 to produce a GUI
+                        implementation of a statistical tool used to group multi - academy schools into groupings,
+                        based off specific data about an academy. This was concluded with a presentation to Arbor
+                        about our findings and solutions, as well as a journal article.</p>
+
+                    <p>From this project, I learnt how to work and communicate effectively with industry,
+                        as well as how to work in a team efficiently. Furthermore, I learned valuable presentation
+                        skills,
+                        alongside how to construct journal papers in LaTeX in an academic format.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-container w3-center">
+
+        <h2>Education</h2>
+
+        <div class="w3-row-padding w3-card w3-white w3-margin-bottom w3-hover-shadow">
+            <br>
+            <div class="w3-container ">
+                <h5 class="w3-opacity"><b>Univerity of Birmingham</b></h5>
+                <h6>Bsc Computer Science</h6>
+                <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2020 - <span
+                        class="w3-tag w3-black w3-round">Current</span></h6>
+
+            </div>
+            <hr>
+            <div class="w3-container ">
+                <h5 class="w3-opacity"><b>Univerity of Birmingham</b></h5>
+                <h6>Bsc Mathematics and Computer Science</h6>
+                <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2019 - Sep 2020</h6>
+            </div>
+            <hr>
+            <div class="w3-container">
+                <h5 class="w3-opacity"><b>King's College London Mathematics School</b></h5>
+                <h6>Computer Science, Mathematics, Further Mathematics, Physics</h6>
+                <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2017 - Aug 2019</h6>
+
+            </div>
+            <hr>
+            <div class="w3-container">
+                <h5 class="w3-opacity"><b>Farringtons School</b></h5>
+                <h6> Secondary Education</h6>
+                <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw "></i> Sep 2004 - Aug 2017</h6>
+
+            </div>
+            <br>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- Qualifications -->
+    <div class="w3-container">
+        <hr>
+        <div class="w3-center">
+            <h2>Qualifications</h2>
+            <div class="w3-responsive w3-card">
+                <table class="w3-table w3-bordered w3-hoverable">
+
+                    <thead>
+                    <tr class="w3-theme">
+                        <td>Qualification</td>
+                        <td>Level</td>
+                        <td>Grade</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Computer Science</td>
+                        <td>Bsc</td>
+                        <td>Ongoing</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>A Level</td>
+                        <td>A*</td>
+                    </tr>
+
+                    <tr>
+                        <td>Further Mathematics</td>
+                        <td>A Level</td>
+                        <td>A*</td>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>A Level</td>
+                        <td>A*</td>
+                    </tr>
+
+                    <tr>
+                        <td>Computer Science</td>
+                        <td>AS Level</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>GCSE</td>
+                        <td>A*</td>
+                    </tr>
+
+                    <tr>
+                        <td>Statistics</td>
+                        <td>GCSE</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>ICT</td>
+                        <td>GCSE</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>Physics</td>
+                        <td>GCSE</td>
+                        <td>A*</td>
+                    </tr>
+
+                    <tr>
+                        <td>Chemistry</td>
+                        <td>GCSE</td>
+                        <td>A*</td>
+                    </tr>
+
+                    <tr>
+                        <td>Biology</td>
+                        <td>GCSE</td>
+                        <td>A*</td>
+                    </tr>
+
+                    <tr>
+                        <td>English Literature</td>
+                        <td>GCSE</td>
+                        <td>A*</td>
+                    </tr>
+
+                    <tr>
+                        <td>English Language</td>
+                        <td>GCSE</td>
+                        <td>A*</td>
+                    </tr>
+
+                    <tr>
+                        <td>Religious Studies</td>
+                        <td>GCSE</td>
+                        <td>A*</td>
+                    </tr>
+
+                    <tr>
+                        <td>Art</td>
+                        <td>GCSE</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>Additional Maths</td>
+                        <td>FSMQ</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>Business Studies</td>
+                        <td>BTEC</td>
+                        <td>DIS*</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        function copyEmail() {
+
+            document.getElementById('id01').style.display = 'block';
+            var copyText = "danielbatchford@gmail.com";
+
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+
+            document.execCommand('copy');
+
+        }
+
+        function copyToClipboard(text) {
+
+            document.getElementById('id01').style.display = 'block';
+
+            if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
+                var textarea = document.createElement("textarea");
+                textarea.textContent = text;
+                textarea.style.position = "fixed";
+                document.body.appendChild(textarea);
+                textarea.select();
+                try {
+                    return document.execCommand("copy"); // Security exception may be thrown by some browsers.
+                } catch (ex) {
+                    console.warn("Copy to clipboard failed.", ex);
+                    return false;
+                } finally {
+                    document.body.removeChild(textarea);
+                }
+            }
+        }
+    </script>
+{% endblock %}
+
+
+</html>

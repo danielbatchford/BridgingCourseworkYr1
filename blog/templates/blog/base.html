@@ -1,23 +1,62 @@
 {% load static %}
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Django Girls blog</title>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-    </head>
-<body>
-    <div class="page-header">
-        <h1><a href="/">Django Girls Blog</a></h1>
-    </div>
-    <div class="content container">
-        <div class="row">
-            <div class="col-md-8">
-            {% block content %}
-            {% endblock %}
-            </div>
+
+<head>
+
+    <title>Daniel Batchford</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!--Logo in tab-->
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg"/>
+
+    <!--Used to display proper thumbnail on LinkedIn-->
+    <link rel="image_src" href="static/featured.jpg">
+    <meta property="og:image" content="static/featured.jpg"/>
+</head>
+
+<body class = "Site">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-black w3-padding" id="header">
+
+    <h1>DANIEL BATCHFORD</h1>
+    <h3>Bsc Computer Science Student at the University of Birmingham</h3>
+
+    <div class="w3-padding-16">
+        <div class="w3-bar w3-border">
+            <a href="/portfolio" class="w3-bar-item w3-button w3-theme">Portfolio</a>
+            <a href="/posts" class="w3-bar-item w3-button w3-theme">Blog</a>
+            <a href="https://github.com/danielbatchford" target="_blank" class="w3-bar-item w3-button w3-">GitHub</a>
+            <a href="https://www.linkedin.com/in/daniel-batchford/" target="_blank"
+               class="w3-bar-item w3-button w3-theme">LinkedIn</a>
+            <a href="static/CV-DanielBatchford-2020.pdf" target="_blank" class="w3-bar-item w3-button w3-theme">CV</a>
+            <a target="_blank" onclick=copyToClipboard("danielbatchford@gmail.com")
+               class='w3-bar-item w3-button w3-theme'>Email</a>
         </div>
     </div>
+</header>
+
+<main class = "Site-content">
+
+    {% block content %}
+    {% endblock %}
+</main>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-theme w3-center" >
+    <p>2020 - Daniel Batchford</p>
+</footer>
+
 </body>
-</html>
