@@ -1,4 +1,8 @@
+#From PyCharm
+
 .idea
+
+#From Django Girls
 *.pyc
 *~
 /.vscode
